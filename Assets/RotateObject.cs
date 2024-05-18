@@ -2,7 +2,6 @@
 
 public class RotateObject : MonoBehaviour
 {
-    public GameObject objectToRotate; // Istniejący obiekt, który chcemy obracać
     public float rotationTimeHours = 1.0f; // Czas obrotu w godzinach
     public float timeFactor = 1.0f; // Czynnik przyspieszenia obrotu
     public bool clockwise = false; // Kierunek obrotu (zgodnie z ruchem wskazówek zegara lub przeciwnie do ruchu wskazówek zegara)
@@ -24,10 +23,7 @@ public class RotateObject : MonoBehaviour
 
     void Update()
     {
-        // Obrót obiektu wokół własnej osi
-        if (objectToRotate != null)
-        {
-            objectToRotate.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
-        }
+        // Obrót obiektu, do którego jest przypięty ten skrypt, wokół własnej osi
+        transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
     }
 }
