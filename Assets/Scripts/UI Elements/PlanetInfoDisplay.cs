@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Xml.Serialization;
 using TMPro;
 using UnityEngine;
+using DG.Tweening;
 
 public class PlanetInfoDisplay : MonoBehaviour
 {
     private static PlanetInfoDisplay instance;
 
     private Canvas canvas;
+    private CanvasGroup canvasGroup;
 
     #region Descriptions
 
@@ -28,12 +30,15 @@ public class PlanetInfoDisplay : MonoBehaviour
     {
         canvas = gameObject.GetComponent<Canvas>();
         instance = this;
+        canvasGroup = canvas.GetComponent<CanvasGroup>();
+        canvasGroup.alpha = 0;
         gameObject.SetActive(false);
     }
 
     public static void Show(Planet planet)
     {
         instance.gameObject.SetActive(true);
+        instance.canvasGroup.DOFade(1, 1).SetEase(Ease.InOutSine);
         Dictionary<string, string> planetData = new Dictionary<string, string>();
         PlanetInfoReader.ReadPlanetData(planet.planetName, out planetData);
         UpdateText(planetData);
@@ -60,6 +65,9 @@ public class PlanetInfoDisplay : MonoBehaviour
 
     public static void Hide() 
     {
-        instance.gameObject.SetActive(false);
+        instance.canvasGroup.DOFade(0, 1).SetEase(Ease.InOutSine).OnComplete(() =>
+        {
+            instance.gameObject.SetActive(false);
+        });
     }
 }
