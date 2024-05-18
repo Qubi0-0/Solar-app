@@ -48,4 +48,10 @@ public class SolarSystemMovement : MonoBehaviour
         speedFactor = _speedFactor;
     }
 
+    public void changeScaleFactor(float _scaleFactor){
+        scaleFactor = _scaleFactor;
+    }
+
+
+
 }
