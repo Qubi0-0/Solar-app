@@ -7,12 +7,12 @@
             "actions": [
                 {
                     "name": "IA_Press",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "f764e21b-c429-4566-aade-29ac6ea47ab5",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -30,7 +30,7 @@
                 {
                     "name": "",
                     "id": "fb77298c-9bb2-4d64-b5d1-6c3ec7c06143",
-                    "path": "<Touchscreen>/Press",
+                    "path": "<Touchscreen>/primaryTouch/position",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
