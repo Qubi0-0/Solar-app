@@ -1,5 +1,5 @@
 Oto zestawienie danych dla każdej z planet, obejmujące średnią odległość od Słońca, skalę względem Słońca, czas obrotu względem własnej osi w godzinach oraz orbitalny okres względem Słońca w latach:
-Słońce skala w układzie 10.
+Słońce skala w układzie 100.
 
 Merkury:
 
