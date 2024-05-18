@@ -9,11 +9,12 @@ public class SolarSystemMovement : MonoBehaviour
     public float scaleFactor = 1.0f; // Czynnik skalowania
 
     private float orbitalSpeed; // Prędkość kątowa orbitalna
+    private float orbitalAngle = 0.0f; 
 
     void Start()
     {
         // Obliczenie prędkości kątowej na podstawie trzeciego prawa Keplera
-        orbitalSpeed = 360.0f / orbitalPeriodYears;
+        orbitalSpeed = 360.0f / (orbitalPeriodYears * 31556926);
 
         // Jeśli kierunek ruchu jest przeciwny do ruchu wskazówek zegara, odwróć prędkość orbitalną
         if (clockwise)
@@ -25,7 +26,7 @@ public class SolarSystemMovement : MonoBehaviour
     void Update()
     {
         // Obliczenie kąta orbitalnego na podstawie czasu
-        float orbitalAngle = Time.time * orbitalSpeed * speedFactor;
+        orbitalAngle += Time.deltaTime * orbitalSpeed * speedFactor;
 
         // Obliczenie skalowanej półosi wielkiej orbity
         float scaledSemiMajorAxisAU = semiMajorAxisAU * scaleFactor;
@@ -42,4 +43,9 @@ public class SolarSystemMovement : MonoBehaviour
         // Aktualizacja pozycji obiektu
         transform.position = new Vector3(posX, posY, posZ);
     }
+
+    public void changeSpeedFactor(float _speedFactor){
+        speedFactor = _speedFactor;
+    }
+
 }
