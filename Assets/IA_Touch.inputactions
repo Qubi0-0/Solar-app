@@ -1,0 +1,45 @@
+{
+    "name": "IA_Touch",
+    "maps": [
+        {
+            "name": "IM_Actions",
+            "id": "1701f573-252c-4d87-ba6b-748db37b77ea",
+            "actions": [
+                {
+                    "name": "IA_Press",
+                    "type": "Button",
+                    "id": "f764e21b-c429-4566-aade-29ac6ea47ab5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4d66ddaf-4b6a-4c2a-a424-20475e4df9bc",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IA_Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb77298c-9bb2-4d64-b5d1-6c3ec7c06143",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IA_Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
