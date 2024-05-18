@@ -6,6 +6,7 @@ public class SolarSystemMovement : MonoBehaviour
     public float orbitalPeriodYears = 1.0f; // Okres orbitalny w latach
     public bool clockwise = false; // Kierunek ruchu orbitalnego (zgodnie z ruchem wskazówek zegara lub przeciwnie do ruchu wskazówek zegara)
     public float speedFactor = 1.0f; // Czynnik przyspieszenia
+    public float scaleFactor = 1.0f; // Czynnik skalowania
 
     private float orbitalSpeed; // Prędkość kątowa orbitalna
 
@@ -26,8 +27,11 @@ public class SolarSystemMovement : MonoBehaviour
         // Obliczenie kąta orbitalnego na podstawie czasu
         float orbitalAngle = Time.time * orbitalSpeed * speedFactor;
 
+        // Obliczenie skalowanej półosi wielkiej orbity
+        float scaledSemiMajorAxisAU = semiMajorAxisAU * scaleFactor;
+
         // Konwersja półosi wielkiej orbity z jednostek astronomicznych na jednostki Unity (np. metry)
-        float semiMajorAxisMeters = semiMajorAxisAU * 149597870700.0f; // 1 AU = 149 597 870 700 metrów
+        float semiMajorAxisMeters = scaledSemiMajorAxisAU * 149597870700.0f; // 1 AU = 149 597 870 700 metrów
 
         // Obliczenie położenia obiektu na orbicie względem środka sceny
         Vector3 centerPosition = Vector3.zero;
