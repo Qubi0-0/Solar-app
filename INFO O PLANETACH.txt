@@ -1,0 +1,51 @@
+Oto zestawienie danych dla każdej z planet, obejmujące średnią odległość od Słońca, skalę względem Słońca, czas obrotu względem własnej osi w godzinach oraz orbitalny okres względem Słońca w latach:
+Słońce skala w układzie 100.
+
+Merkury:
+
+Średnia odległość: 0.39 AU
+Skala względem Słońca: 0.035
+Czas obrotu względem własnej osi: 1407.6 godzin
+Orbitalny okres względem Słońca: 0.24 roku
+Wenus:
+
+Średnia odległość: 0.72 AU
+Skala względem Słońca: 0.087
+Czas obrotu względem własnej osi: 5832.5 godzin
+Orbitalny okres względem Słońca: 0.62 roku
+Ziemia:
+
+Średnia odległość: 1.00 AU
+Skala względem Słońca: 0.092
+Czas obrotu względem własnej osi: 24 godzin
+Orbitalny okres względem Słońca: 1.00 roku
+Mars:
+
+Średnia odległość: 1.52 AU
+Skala względem Słońca: 0.049
+Czas obrotu względem własnej osi: 24.6 godzin
+Orbitalny okres względem Słońca: 1.88 roku
+Jowisz:
+
+Średnia odległość: 5.20 AU
+Skala względem Słońca: 1.005
+Czas obrotu względem własnej osi: 9.9 godzin
+Orbitalny okres względem Słońca: 11.86 roku
+Saturn:
+
+Średnia odległość: 9.58 AU
+Skala względem Słońca: 0.837
+Czas obrotu względem własnej osi: 10.7 godzin
+Orbitalny okres względem Słońca: 29.46 roku
+Uran:
+
+Średnia odległość: 19.22 AU
+Skala względem Słońca: 0.365
+Czas obrotu względem własnej osi: 17.2 godzin
+Orbitalny okres względem Słońca: 84.01 roku
+Neptun:
+
+Średnia odległość: 30.05 AU
+Skala względem Słońca: 0.354
+Czas obrotu względem własnej osi: 16.1 godzin
+Orbitalny okres względem Słońca: 164.79 roku
