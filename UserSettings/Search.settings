@@ -28,6 +28,7 @@ providers = {
 	packages = {
 		active = true
 		priority = 90
+
 		defaultAction = null
 	}
 	log = {
@@ -67,7 +68,7 @@ showSavedSearchPanel = false
 hideTabs = false
 expandedQueries = [
 ]
-queryBuilder = false
+queryBuilder = true
 ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"
 disabledIndexers = ""
