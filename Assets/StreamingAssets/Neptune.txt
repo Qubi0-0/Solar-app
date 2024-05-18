@@ -1,0 +1,6 @@
+Nazwa: Neptun
+Średnica: 49,244 km
+Temperatura: -220°C
+Orbita: 164.79 lat ziemskich
+Księżyce: 14 (największy: Tryton)
+Ciekawostki: Neptun ma jedne z najsilniejszych wiatrów w Układzie Słonecznym, osiągające prędkość do 2,100 km/h. Tryton, największy księżyc Neptuna, jest jedynym dużym księżycem w Układzie Słonecznym, który krąży w kierunku przeciwnym do ruchu obrotowego planety. Neptun został odkryty dzięki matematycznym przewidywaniom, a nie bezpośredniej obserwacji.
