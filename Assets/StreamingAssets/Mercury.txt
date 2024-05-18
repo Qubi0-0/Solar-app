@@ -1,6 +1,6 @@
-Nazwa: Merkury
-Średnica: 4,880 km
-Temperatura: Od -173°C do 427°C
-Orbita: 88 dni ziemskich
-Księżyce: Brak
-Ciekawostki: Merkury ma największą eliptyczność orbity spośród wszystkich planet. Powierzchnia Merkurego jest usiana kraterami podobnymi do tych na Księżycu, a planeta posiada bardzo cienką atmosferę, zwaną egzosferą, składającą się głównie z tlenu, sodu, wodoru, helu i potasu.
+Nazwa; Merkury
+Średnica; 4,880 km
+Temperatura; Od -173°C do 427°C
+Orbita; 88 dni ziemskich
+Księżyce; Brak
+Ciekawostki; Merkury ma największą eliptyczność orbity spośród wszystkich planet. Powierzchnia Merkurego jest usiana kraterami podobnymi do tych na Księżycu, a planeta posiada bardzo cienką atmosferę, zwaną egzosferą, składającą się głównie z tlenu, sodu, wodoru, helu i potasu.

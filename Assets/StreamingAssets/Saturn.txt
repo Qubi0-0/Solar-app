@@ -1,6 +1,6 @@
-Nazwa: Saturn
-Średnica: 116,464 km
-Temperatura: -178°C
-Orbita: 29.46 lat ziemskich
-Księżyce: 83 (największy: Tytan)
-Ciekawostki: Saturn ma najrozleglejszy system pierścieni spośród wszystkich planet w Układzie Słonecznym, złożony głównie z lodu i pyłu. Tytan, największy księżyc Saturna, posiada gęstą atmosferę i ciekłe węglowodory na powierzchni, co czyni go jednym z najbardziej intrygujących miejsc do badania pod kątem możliwości istnienia życia.
+Nazwa; Saturn
+Średnica; 116,464 km
+Temperatura; -178°C
+Orbita; 29.46 lat ziemskich
+Księżyce; 83 (największy: Tytan)
+Ciekawostki; Saturn ma najrozleglejszy system pierścieni spośród wszystkich planet w Układzie Słonecznym, złożony głównie z lodu i pyłu. Tytan, największy księżyc Saturna, posiada gęstą atmosferę i ciekłe węglowodory na powierzchni, co czyni go jednym z najbardziej intrygujących miejsc do badania pod kątem możliwości istnienia życia.

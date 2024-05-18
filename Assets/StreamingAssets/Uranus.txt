@@ -1,6 +1,6 @@
-Nazwa: Uran
-Średnica: 50,724 km
-Temperatura: -224°C
-Orbita: 84 lat ziemskich
-Księżyce: 27 (największy: Miranda)
-Ciekawostki: Uran obraca się na boku, co oznacza, że jego bieguny leżą tam, gdzie inne planety mają równik. Uran posiada pierścienie, choć są one mniej widoczne niż pierścienie Saturna. Atmosfera Urana zawiera wodór, hel i metan, który nadaje planecie charakterystyczny niebiesko-zielony kolor.
+Nazwa; Uran
+Średnica; 50,724 km
+Temperatura; -224°C
+Orbita; 84 lat ziemskich
+Księżyce; 27 (największy: Miranda)
+Ciekawostki; Uran obraca się na boku, co oznacza, że jego bieguny leżą tam, gdzie inne planety mają równik. Uran posiada pierścienie, choć są one mniej widoczne niż pierścienie Saturna. Atmosfera Urana zawiera wodór, hel i metan, który nadaje planecie charakterystyczny niebiesko-zielony kolor.

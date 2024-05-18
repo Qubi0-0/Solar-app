@@ -1,6 +1,6 @@
-Nazwa: Wenus
-Średnica: 12,104 km
-Temperatura: >460°C
-Orbita: 225 dni ziemskich
-Księżyce: Brak
-Ciekawostki: Wenus obraca się w przeciwnym kierunku do większości planet w Układzie Słonecznym, co oznacza, że Słońce wschodzi tam na zachodzie i zachodzi na wschodzie. Atmosfera Wenus jest tak gęsta, że ciśnienie na powierzchni jest 92 razy większe niż na Ziemi, co odpowiada ciśnieniu na głębokości około 900 metrów pod wodą.
+Nazwa; Wenus
+Średnica; 12,104 km
+Temperatura; >460°C
+Orbita; 225 dni ziemskich
+Księżyce; Brak
+Ciekawostki; Wenus obraca się w przeciwnym kierunku do większości planet w Układzie Słonecznym, co oznacza, że Słońce wschodzi tam na zachodzie i zachodzi na wschodzie. Atmosfera Wenus jest tak gęsta, że ciśnienie na powierzchni jest 92 razy większe niż na Ziemi, co odpowiada ciśnieniu na głębokości około 900 metrów pod wodą.
