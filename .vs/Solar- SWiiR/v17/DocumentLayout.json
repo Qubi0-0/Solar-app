@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Zajfi\\Solar- SWiiR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zajfi\\Solar- SWiiR\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{5344BC57-56B9-FD81-733C-A7F6146C40E6}|Assembly-CSharp.csproj|c:\\users\\zajfi\\solar- swiir\\assets\\solarsystemmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5344BC57-56B9-FD81-733C-A7F6146C40E6}|Assembly-CSharp.csproj|solutionrelative:assets\\solarsystemmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5344BC57-56B9-FD81-733C-A7F6146C40E6}|Assembly-CSharp.csproj|C:\\Users\\Zajfi\\Solar- SWiiR\\assets\\rotateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5344BC57-56B9-FD81-733C-A7F6146C40E6}|Assembly-CSharp.csproj|solutionrelative:assets\\rotateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RotateObject.cs",
+              "DocumentMoniker": "C:\\Users\\Zajfi\\Solar- SWiiR\\Assets\\RotateObject.cs",
+              "RelativeDocumentMoniker": "Assets\\RotateObject.cs",
+              "ToolTip": "C:\\Users\\Zajfi\\Solar- SWiiR\\Assets\\RotateObject.cs",
+              "RelativeToolTip": "Assets\\RotateObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T12:08:28.539Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\Zajfi\\Solar- SWiiR\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\Zajfi\\Solar- SWiiR\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-05-18T10:51:13.191Z",
+              "Title": "SolarSystemMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Zajfi\\Solar- SWiiR\\Assets\\SolarSystemMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\SolarSystemMovement.cs",
+              "ToolTip": "C:\\Users\\Zajfi\\Solar- SWiiR\\Assets\\SolarSystemMovement.cs",
+              "RelativeToolTip": "Assets\\SolarSystemMovement.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T11:49:40.693Z",
               "EditorCaption": ""
             }
           ]

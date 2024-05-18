@@ -491,6 +491,29 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1283672701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 554415587368786775, guid: eb114c66c448f8a4a855a40d6e70d26b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1710737478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1283672705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283672701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d3514956fa1ec4c8cc3f396b114036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  semiMajorAxisAU: 0
+  orbitalPeriodYears: 1
+  clockwise: 0
+  speedFactor: 1
+  scaleFactor: 1
 --- !u!1 &1506669705
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +847,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 554415587368786775, guid: eb114c66c448f8a4a855a40d6e70d26b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1283672705}
     - targetCorrespondingSourceObject: {fileID: 155072574774415887, guid: eb114c66c448f8a4a855a40d6e70d26b,
         type: 3}
       insertIndex: -1

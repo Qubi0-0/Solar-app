@@ -76,3 +76,6 @@ Build/
 # Ignore Asset Store plugin
 Assets/AssetStoreTools*
 
+# VSCode 
+.vs/
+.vsconfig
