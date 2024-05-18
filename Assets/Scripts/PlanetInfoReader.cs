@@ -15,9 +15,10 @@ public class PlanetInfoReader : MonoBehaviour
         {
             if (line == "")
                 continue;
-            string tmpLine =  line.Trim();
-            string[] lineText = tmpLine.Split(new char[] { ':' });
-            data.Add(lineText[0], lineText[1]);
+            string[] lineText = line.Split(new char[] { ';' });
+            string keyLine = lineText[0].Trim();
+            string valueLine = lineText[1].Trim();
+            data.Add(keyLine, valueLine);
         }
 
         return true;
