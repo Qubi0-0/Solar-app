@@ -1,0 +1,6 @@
+Nazwa; Ziemia
+Średnica; 12,742 km
+Temperatura; -89°C do 58°C (rekordy)
+Orbita; 365.25 dni
+Księżyce; 1 (Księżyc)
+Ciekawostki; Ziemia jest jedyną planetą, na której znajduje się woda w trzech stanach skupienia: ciekłym, stałym i gazowym. Ponadto, nasza planeta jest jedynym znanym miejscem we wszechświecie, gdzie istnieje życie. Magnetosfera Ziemi chroni nas przed szkodliwym promieniowaniem kosmicznym.
