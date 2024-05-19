@@ -4937,6 +4937,7 @@ GameObject:
   - component: {fileID: 205568318585521926}
   - component: {fileID: 4878998461253096602}
   - component: {fileID: 6549713093847742945}
+  - component: {fileID: 3397157940702215385}
   m_Layer: 0
   m_Name: Earth
   m_TagString: TrackingObject
@@ -5023,6 +5024,19 @@ MonoBehaviour:
   rotationTimeHours: 24
   timeFactor: 1
   clockwise: 0
+--- !u!114 &3397157940702215385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733945558841920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f0be7576748f9428daabc0aed48013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetName: Earth
 --- !u!1 &1982611864615202
 GameObject:
   m_ObjectHideFlags: 0
