@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{5344BC57-56B9-FD81-733C-A7F6146C40E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5344BC57-56B9-FD81-733C-A7F6146C40E6}|Assembly-CSharp.csproj|c:\\users\\zajfi\\solar- swiir\\assets\\solarsystemmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5344BC57-56B9-FD81-733C-A7F6146C40E6}|Assembly-CSharp.csproj|C:\\Users\\Zajfi\\Solar- SWiiR\\assets\\solarsystemmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5344BC57-56B9-FD81-733C-A7F6146C40E6}|Assembly-CSharp.csproj|solutionrelative:assets\\solarsystemmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\SceneChanger.cs",
               "ToolTip": "C:\\Users\\Zajfi\\Solar- SWiiR\\Assets\\SceneChanger.cs",
               "RelativeToolTip": "Assets\\SceneChanger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T20:40:57.728Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Assets\\SolarSystemMovement.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAuwBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T11:49:40.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T11:49:40.693Z"
             }
           ]
         }
