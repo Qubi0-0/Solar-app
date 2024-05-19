@@ -4,6 +4,8 @@ using System.Xml.Serialization;
 using TMPro;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering;
 
 public class PlanetInfoDisplay : MonoBehaviour
 {
@@ -26,12 +28,31 @@ public class PlanetInfoDisplay : MonoBehaviour
     private TMP_Text trivia;
     #endregion
 
+    private Volume volume;
+    private Vignette effectVignette;
+    private ColorAdjustments colorAdjustment;
+
+    #region effectStrength
+    [SerializeField]
+    private float vignetteIntensityStrength = 0.412f;
+    [SerializeField]
+    private float colorAdjustmentStrength = -2;
+    #endregion
+
     private void Awake()
     {
         canvas = gameObject.GetComponent<Canvas>();
         instance = this;
         canvasGroup = canvas.GetComponent<CanvasGroup>();
         canvasGroup.alpha = 0;
+
+        volume = gameObject.GetComponentInChildren<Volume>();
+
+        volume.profile.TryGet<Vignette>(out effectVignette);
+        volume.profile.TryGet<ColorAdjustments>(out colorAdjustment);
+
+        effectVignette.intensity.value = 0;
+        colorAdjustment.postExposure.value = 0;
         gameObject.SetActive(false);
     }
 
@@ -39,6 +60,11 @@ public class PlanetInfoDisplay : MonoBehaviour
     {
         instance.gameObject.SetActive(true);
         instance.canvasGroup.DOFade(1, 1).SetEase(Ease.InOutSine);
+        if (instance.effectVignette)
+            DOTween.To(() => instance.effectVignette.intensity.value, x => instance.effectVignette.intensity.value = x, instance.vignetteIntensityStrength, 1);
+        if (instance.colorAdjustment)
+            DOTween.To(() => instance.colorAdjustment.postExposure.value, x => instance.colorAdjustment.postExposure.value = x, instance.colorAdjustmentStrength, 1);
+
         Dictionary<string, string> planetData = new Dictionary<string, string>();
         PlanetInfoReader.ReadPlanetData(planet.planetName, out planetData);
         UpdateText(planetData);
@@ -63,8 +89,12 @@ public class PlanetInfoDisplay : MonoBehaviour
         instance.trivia.SetText(textData);
     }
 
-    public static void Hide() 
+    public static void Hide()
     {
+        if (instance.effectVignette)
+            DOTween.To(() => instance.effectVignette.intensity.value, x => instance.effectVignette.intensity.value = x, 0, 1);
+        if (instance.colorAdjustment)
+            DOTween.To(() => instance.colorAdjustment.postExposure.value, x => instance.colorAdjustment.postExposure.value = x, 0, 1);
         instance.canvasGroup.DOFade(0, 1).SetEase(Ease.InOutSine).OnComplete(() =>
         {
             instance.gameObject.SetActive(false);
