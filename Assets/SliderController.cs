@@ -27,15 +27,20 @@ public class SliderController : MonoBehaviour
 
     private void OnSliderValueChanged(float value)
     {
-        // Find all planets in the solar system
-        RotateObject[] planets = solarSystem.GetComponentsInChildren<RotateObject>();
-
-        // Call the function on each planet
-        foreach (RotateObject planet in planets)
-        {
-            // Call the function by name using reflection
-            planet.SendMessage(onChangeFunctionCallName, value, SendMessageOptions.DontRequireReceiver);
-        }
+        solarSystem = GameObject.FindWithTag("SolarSystem");
         textMeshPro.text = value.ToString();
+
+        if (solarSystem != null){
+            // Find all planets in the solar system
+            RotateObject[] planets = solarSystem.GetComponentsInChildren<RotateObject>();
+
+            // Call the function on each planet
+            foreach (RotateObject planet in planets)
+            {
+                // Call the function by name using reflection
+                planet.SendMessage(onChangeFunctionCallName, value, SendMessageOptions.DontRequireReceiver);
+            }
+        }
     }
+    
 }

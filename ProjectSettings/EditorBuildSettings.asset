@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SolarSystemRow.unity
     guid: 66b304aa2a03af147af1b8aab8498d2e
+  - enabled: 1
+    path: Assets/SolarSystemRotating.unity
+    guid: eb5119c3a9628d74fb6f96ca37c3e997
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: 001a675f09bc00b4388b258e54a70f44
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
