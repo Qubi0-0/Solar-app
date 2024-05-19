@@ -7,8 +7,17 @@
             "actions": [
                 {
                     "name": "IA_Press",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "f764e21b-c429-4566-aade-29ac6ea47ab5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "IA_Position",
+                    "type": "Value",
+                    "id": "2176376f-1069-48f2-8394-fffec1419f4e",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -19,8 +28,8 @@
                 {
                     "name": "",
                     "id": "4d66ddaf-4b6a-4c2a-a424-20475e4df9bc",
-                    "path": "<Mouse>/{Point}",
-                    "interactions": "",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
                     "action": "IA_Press",
@@ -30,11 +39,33 @@
                 {
                     "name": "",
                     "id": "fb77298c-9bb2-4d64-b5d1-6c3ec7c06143",
-                    "path": "<Touchscreen>/primaryTouch/position",
-                    "interactions": "",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
                     "action": "IA_Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f2e5582-a942-4780-b607-e4cd60dda457",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IA_Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d2e7897-1cfa-4286-a395-8f42f53ac749",
+                    "path": "<Mouse>/position",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IA_Position",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
