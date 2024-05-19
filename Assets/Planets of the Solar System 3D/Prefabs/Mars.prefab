@@ -4854,6 +4854,7 @@ GameObject:
   - component: {fileID: 205528198418929460}
   - component: {fileID: 6789804957547789107}
   - component: {fileID: -2043653078989043618}
+  - component: {fileID: 2888097417359106531}
   m_Layer: 0
   m_Name: Mars
   m_TagString: TrackingObject
@@ -4940,6 +4941,19 @@ MonoBehaviour:
   rotationTimeHours: 24.6
   timeFactor: 1
   clockwise: 0
+--- !u!114 &2888097417359106531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288793558353234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f0be7576748f9428daabc0aed48013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetName: Mars
 --- !u!1 &1299526964348990
 GameObject:
   m_ObjectHideFlags: 0

@@ -2213,7 +2213,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 100.7
+  far clip plane: 200
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -2529,7 +2529,7 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: 7fe9a03315bf47b4ca3b0f2d9eda7ab1,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 6866329975683422064, guid: 78268275c3320c94c825b70750b9fe18,
+  m_TrackedImagePrefab: {fileID: 7054045919951148039, guid: 44e6be0ae1112a5438c25869dc72bdc0,
     type: 3}
 --- !u!114 &1778780683
 MonoBehaviour:

@@ -4937,6 +4937,7 @@ GameObject:
   - component: {fileID: 205751706758944436}
   - component: {fileID: 6518462326645541621}
   - component: {fileID: -6924496336727676020}
+  - component: {fileID: 3426902329614678176}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: TrackingObject
@@ -5023,6 +5024,19 @@ MonoBehaviour:
   rotationTimeHours: 9.9
   timeFactor: 1
   clockwise: 0
+--- !u!114 &3426902329614678176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526814149960808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f0be7576748f9428daabc0aed48013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetName: Jupiter
 --- !u!1 &1739387421617238
 GameObject:
   m_ObjectHideFlags: 0
