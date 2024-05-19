@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f0be7576748f9428daabc0aed48013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetName: V
+  planetName: Venus
 --- !u!1 &1741346461429698
 GameObject:
   m_ObjectHideFlags: 0
